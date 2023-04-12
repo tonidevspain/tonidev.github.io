@@ -238,7 +238,7 @@ header{
     font-size: 20px;
 }
 
-@media (orientation:landscape), (max-width:1000px){
+@media (orientation:landscape), (max-width:1100px){
     .nombre{
         width: 100%;
         position: relative;
