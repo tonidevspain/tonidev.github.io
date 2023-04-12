@@ -237,6 +237,85 @@ header{
     text-align: justify;
     font-size: 20px;
 }
+@media(max-width:800px){
+    .nombre{
+        width: 100%;
+        position: relative;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        align-items:center;
+        justify-content: center;
+    }
+    .text{
+        font-size: 8vw;
+        margin: 30px;
+    }
+    .rrss{
+        height: 55%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Instagram, .Twitter, .Whatsapp, .Discord{
+        margin-top: 30px;
+        width: 90%;
+    }
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        left: 0;
+    }
+    .InstaButton{
+        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        border: none;
+    }
+    .icon-instagram{
+        color: #f0f0f0;
+    }
+    .TwitterButton{
+        background-color: #1D9BF0;
+        border: none;
+    }
+    .icon-twitter{
+        color: #f0f0f0;
+    }
+    .WhatsButton{
+        background-color: #25D366;
+        border: none;
+    }
+    .icon-whatsapp{
+        color: #f0f0f0;
+    }
+    .DiscButton{
+        background-color: #7289da;
+        border: none;
+    }
+    .icon-discord{
+        color: #f0f0f0;
+    }
+    .Bienvenida{
+        position: relative;
+        height: 20%;
+        padding: 25px;
+        display: block;
+        margin: 0 auto;
+
+    }
+    .presentacion{
+        display: flex;
+        height: 100%;
+        text-overflow:ellipsis
+    }
+}
 
 @media (max-width:500px){
     .Bienvenida{
