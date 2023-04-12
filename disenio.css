@@ -92,6 +92,10 @@ header{
 .rrss{
     height: 50%;
 }
+.rrss > *{
+    margin-left: 5%;
+
+}
 .Instagram, .Twitter, .Discord, .Whatsapp{
     left: 100px;
 }
@@ -242,7 +246,7 @@ header{
     font-size: 20px;
 }
 
-@media (max-width:800px){
+@media (max-width:900px){
     .nombre{
         width: 100%;
         position: relative;
