@@ -92,7 +92,7 @@ header{
 .rrss{
     height: 50%;
 }
-.rrss *{
+.Instagram, .Twitter, .Discord, .Whatsapp{
     margin-left: 10px;
 }
 .Instagram{
