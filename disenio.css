@@ -88,11 +88,12 @@ header{
     height: auto;
     border-radius: 50%;
 }
-
 .rrss{
     height: 50%;
 }
-
+.rrss > * {
+    margin-left: 1000px;
+}
 .Instagram{
     height: 25%;
     width: 100%;
