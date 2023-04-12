@@ -91,6 +91,9 @@ header{
 .rrss{
     height: 50%;
 }
+.rrss > *{
+    margin-left: 2%;
+}
 .Instagram{
     height: 25%;
     width: 100%;
