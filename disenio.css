@@ -341,10 +341,10 @@ header{
 }
 @media (max-height:350px){
     .Bienvenida{
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     .textaco{
-        font-size: 1vw;
+        font-size: 2vw;
     }
 }
 
